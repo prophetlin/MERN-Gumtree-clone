@@ -1,0 +1,136 @@
+.createad-hr{
+    margin-top: 5rem;
+}
+
+.createad-main{
+    background-color:white;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    position: relative;
+    height: 2400px;
+    width: 1240px;
+    flex-direction: column;
+}
+
+
+.createad-headertitle{
+    text-align: center;
+    width: 50%;
+    margin: 5rem auto 5rem auto;
+}
+.createad-text{
+    display: inline;
+    font-size: 35px;
+}
+.createad-title{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.createad-attri-contain{
+    margin: 3rem 3rem 0rem 3rem;
+}
+.createad-title-input{
+    width: 40%;
+    height: 45px;
+    border: 2px solid rgb(190, 188, 188);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.creatad-dropdown select {
+    width: 40.8%;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid rgb(190, 188, 188);
+}
+
+
+
+.createad-title-price{
+    cursor: pointer;
+}
+
+
+.createad-title-pricespan{
+    background-color: #fff;
+    border: 2px inset grey;
+    border-radius: 5px;
+    color: rgb(40, 156, 40);
+    font-weight: bold;
+    padding: 1rem;
+    padding-right:8rem;
+
+}
+.createad-title-pricespan input{
+    position: relative;
+    top: 0px;
+    width:50px;
+    height:30px;
+    border: none;
+    font-size: 13px;
+    padding-left: 1rem;
+}
+.createad-title-pricespan input:focus{
+    outline:none;
+}
+
+.createad-check-container{
+    position: relative;
+    bottom: 2.5rem;
+    left: 20rem;
+}
+.createad-textarea{
+    width:48rem;
+    height:20rem;
+    font-size: 17px;
+    resize: none;
+}
+.createad-tip{
+    position: absolute;
+    left: 90rem;
+    background-color:rgb(240, 240, 240);
+    font-size: 13px;
+    width: 30rem;
+
+}
+.createad-tip2{
+    position: absolute;
+    top: 50rem;
+    left: 90rem;
+    background-color:rgb(240, 240, 240);
+    font-size: 13px;
+    width: 30rem;
+
+}
+.createad-tip-content{
+    display: flex;
+    padding: 3rem;
+}
+.createad-tip i , .createad-tip2 i{
+    color:rgb(40, 156, 40);
+    padding-right: 3rem;
+}
+
+.createad-condition{
+    width: 40rem;
+}
+
+.createad-postbutton{
+    position: relative;
+    width:20%;
+    height:5rem;
+    color:white;
+    background-color:rgb(6, 161, 6);
+    font-size: 17px;
+    top: 10%;
+    left: 40%;
+    font-weight: bold;
+    transition: all 0.5s;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+.createad-postbutton:hover{
+    background-color:green
+}

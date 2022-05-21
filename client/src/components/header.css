@@ -1,0 +1,54 @@
+.header-auth a:visited  {
+    color: #fff;
+}
+.header-auth a {
+    color: #fff;
+}
+.header-user-dropdown{
+    display: none;
+    position:absolute;
+    min-width: 260px;
+    top: 30px;
+    left: -70px;
+    min-height: 230px;
+    cursor: pointer;
+    background-color:#fff;
+    z-index: 10;
+    border-color: blue; border-bottom-style: solid;
+    border-width: 1px; border-color: rgb(175, 175, 182);
+    box-shadow: 5px 5px 6px rgba(0,0,0,.1);
+}
+.header-user-name{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3rem 0rem 4rem 7rem;
+    background-color: rgb(244, 244, 244);
+}
+.header-user-item{
+    padding: 2rem 2rem 1rem 2rem;
+    display: flex;
+}
+.header-user-item:hover{
+    background-color: rgb(235, 232, 232);
+}
+.header-user-item i{
+    color: grey
+}
+.header-user-item div{
+    padding-left: 1rem;
+    padding-top: .5rem;
+    color: grey;
+    font-weight: bold;
+}
+
+.show{
+    display:unset;
+}
+#mydumbtree{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#mydumbtree:hover{
+    background-color:grey;
+}

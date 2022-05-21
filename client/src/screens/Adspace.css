@@ -1,0 +1,162 @@
+.adspace-container{
+    display: flex;
+    position: relative;
+    height: 1600px;
+    width: 1240px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*cards*/
+.adspace-cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    float: right;
+    top: 200px;
+}
+.adspace-card{
+    background-color:white;
+    position: relative;
+    display: flex;
+    height: 160px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.adspace-img-wrap1{
+    width:240px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.adspace-img-wrap2{
+    background-color:#dadada;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10em;
+}
+.adspace-card-left{
+    padding: 11px 20px 12px;
+}
+.adspace-card-left-title{
+    font-weight: bold;
+}
+.adspace-card-left-title:hover{
+    text-decoration: underline;
+}
+.adspace-card-left-desc{
+    resize: none;
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: 14px;
+    line-height:1.4em;
+    margin-top:1rem;
+    width: 400px;
+    height: 100px;   
+    overflow: hidden;
+}
+.adspace-card-right{
+    position: absolute;
+    left: 75%;
+    padding: 2rem;
+}
+.adspace-card-right-price{
+    font-weight: bold;
+    font-size: 20px;
+}
+.adspace-card-right-nego{
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+.adspace-card-right-top{
+    display:flex;
+}
+
+.adspace-card-right-location{
+    font-size: 14px;
+    color: #9a9a9a;
+    padding-top:.5rem;
+}
+.adspace-card-right-date {
+    font-size: 14px;
+    color: #9a9a9a;
+    margin-top:5.5rem;
+}
+.adspace-card-right-watch{
+    position: relative;
+    color:#666;
+    left: 160px;
+    bottom:10px;
+}
+.adspace-card-right-watch:hover{
+    color:red;
+}
+
+
+
+/*filter*/
+
+.adspace-filter{
+    position: relative;
+    top: 220px;
+    width:1100px;
+    height:500px;
+}
+.adspace-filter-title{
+    font-size:20px;
+    font-weight:bold;
+}
+.adspace-filter-price div{
+    font-weight: bold;
+}
+.adspace-filter-pricerange{
+    display: flex;
+}
+.adspace-filter-pricerange-min{
+    padding-right: 1rem;
+}
+.adspace-filter-pricerangespan{
+    background-color: #fff;
+    border: 2px inset grey;
+    border-radius: 5px;
+    color: rgb(40, 156, 40);
+    font-weight: bold;
+    padding: 1rem;
+    padding-right:8rem;
+}
+.adspace-filter-pricerangespan input{
+    position: absolute;
+    top:83px;
+    width:50px;
+    height:30px;
+    border: none;
+    font-size: 13px;
+    padding-left: 1rem;
+}
+.adspace-filter-pricerangespan input:focus{
+    outline:none;
+}
+
+.adspace-filter-pricerange-min,.adspace-filter-pricerange-max{
+    margin-top:30px;
+    margin-bottom: 2rem;
+}
+
+.adspace-filter-pricetype div{
+    font-weight: bold;
+}
+
+.adspace-filter-pricetypeButton{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color:rgb(32, 112, 32);
+    font-size: 15px;
+    cursor: pointer;
+}
+.adspace-filter-pricetypeButton:hover{
+    background-color: rgb(197, 197, 197)
+}
